@@ -123,10 +123,11 @@ LOG=$LOGSCRIPT
 # [ ] = teste de expressão, && = operador lógico AND, == comparação de string, exit 1 = A maioria 
 # dos erros comuns na execução
 clear
-if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
+# if [ "$USUARIO" == "0" ] && [ "$UBUNTU" == "20.04" ]
+if [ "$USUARIO" == "0" ]
 	then
 		echo -e "O usuário é Root, continuando com o script..."
-		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
+#		echo -e "Distribuição é >= 20.04.x, continuando com o script..."
 		sleep 5
 	else
 		echo -e "Usuário não é Root ($USUARIO) ou a Distribuição não é >= 20.04.x ($UBUNTU)"

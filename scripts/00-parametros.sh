@@ -123,7 +123,7 @@ SSHDEP="openssh-server openssh-client"
 SSHINSTALL="net-tools traceroute ipcalc nmap tree pwgen neofetch shellinabox"
 #
 # Variável da porta de conexão padrão do OpenSSH Server
-PORTSSH="22"
+PORTSSH="50022"
 #
 # Variável da porta de conexão padrão do Shell-In-a-Box
 PORTSHELLINABOX="4200"
